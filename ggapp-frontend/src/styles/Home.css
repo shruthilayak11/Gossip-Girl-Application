@@ -1,0 +1,75 @@
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #f9f9f9, #e6e6e6);
+}
+
+.project-title {
+  font-size: 60px;
+  font-weight: bold;
+  color: #ff4081;
+  margin-bottom: 15px;
+}
+
+.project-subtitle {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.hero-image {
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+.logout-container {
+  text-align: right;
+}
+
+.logout-btn {
+  background-color: #ff4b8b;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.logout-btn:hover {
+  background-color: #ff2f77;
+}
+
+/* ===== Comments Section ===== */
+.comments-section {
+  border-top: 1px solid #eaeaea;
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+}
+
+.comment-item {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 8px 12px;
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.comment-item strong {
+  color: #000;
+}
+
+.comments-section input.form-control {
+  font-size: 0.9rem;
+}
+
+.comments-section .btn {
+  font-size: 0.9rem;
+  padding: 6px 12px;
+}
+
+.text-muted.small {
+  margin-bottom: 0.4rem;
+}

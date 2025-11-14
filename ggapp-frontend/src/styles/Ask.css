@@ -1,0 +1,74 @@
+.ask-container {
+  max-width: 700px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.ask-title {
+  color: var(--primary-color);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.ask-subtitle {
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.ask-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.ask-form textarea {
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 1rem;
+  resize: none;
+  min-height: 100px;
+}
+
+.ask-form textarea:focus {
+  border-color: var(--primary-color);
+  outline: none;
+}
+
+.ask-btn {
+  background: var(--primary-color);
+  color: white;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.ask-btn:hover {
+  background: var(--secondary-color);
+}
+
+.question-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.question-text {
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+}
+
+.answers .answer {
+  margin-left: 1rem;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.no-answer {
+  font-size: 0.9rem;
+  color: #aaa;
+}

@@ -1,0 +1,74 @@
+/* Register page - soft pink theme */
+:root{
+  --pink-1:#ffeff6;
+  --pink-2:#ffd6e0;
+  --accent:#ff4b8b;
+  --accent-dark:#ff2f77;
+}
+
+.rg-container{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:linear-gradient(135deg,var(--pink-2),#fff0f6);
+  font-family:"Poppins", sans-serif;
+}
+
+.rg-card{
+  width:360px;
+  background:#fff;
+  padding:34px;
+  border-radius:16px;
+  box-shadow:0 8px 28px rgba(255,105,180,0.12);
+  text-align:center;
+}
+
+.rg-title{
+  color:var(--accent);
+  font-size:22px;
+  margin:0 0 6px;
+  font-weight:700;
+}
+
+.rg-sub{
+  color:#666;
+  font-size:13px;
+  margin-bottom:18px;
+}
+
+.rg-form{display:block;text-align:left}
+
+.rg-input{
+  width:100%;
+  padding:12px 14px;
+  margin:10px 0;
+  border-radius:10px;
+  border:1px solid #ffd1df;
+  outline:none;
+  font-size:14px;
+  transition:box-shadow .15s, border-color .15s;
+}
+
+.rg-input:focus{ border-color:var(--accent); box-shadow:0 4px 12px rgba(255,75,139,0.08); }
+
+.rg-btn{
+  width:100%;
+  margin-top:8px;
+  background:var(--accent);
+  color:#fff;
+  border:none;
+  padding:12px;
+  border-radius:10px;
+  font-weight:600;
+  cursor:pointer;
+  transition:background .15s, transform .05s;
+}
+
+.rg-btn:disabled{ opacity:.7; cursor:default; }
+.rg-btn:hover{ background:var(--accent-dark); }
+
+.rg-error{ margin-top:12px; color:#b00020; font-weight:600; font-size:14px; text-align:center; }
+.rg-footer{ margin-top:14px; color:#666; font-size:14px; }
+.rg-link{ color:var(--accent); font-weight:600; text-decoration:none; }
+.rg-link:hover{ text-decoration:underline; }

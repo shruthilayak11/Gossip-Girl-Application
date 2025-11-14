@@ -1,0 +1,63 @@
+:root{
+  --pink-1:#ffeff6;
+  --pink-2:#ffd6e0;
+  --accent:#ff4b8b;
+  --accent-dark:#ff2f77;
+  --muted:#666;
+}
+
+.lg-container{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:linear-gradient(135deg,var(--pink-2),#fff0f6);
+  font-family:"Poppins", sans-serif;
+}
+
+.lg-card{
+  width:360px;
+  background:#fff;
+  padding:34px;
+  border-radius:16px;
+  box-shadow:0 8px 28px rgba(255,105,180,0.12);
+  text-align:center;
+}
+
+.lg-title{ color:var(--accent); font-size:22px; margin:0 0 6px; font-weight:700; }
+.lg-sub{ color:var(--muted); font-size:13px; margin-bottom:18px; }
+
+.lg-form{ text-align:left; }
+
+.lg-input{
+  width:100%;
+  padding:12px 14px;
+  margin:10px 0;
+  border-radius:10px;
+  border:1px solid #ffd1df;
+  outline:none;
+  transition:box-shadow .15s, border-color .15s;
+}
+
+.lg-input:focus{ border-color:var(--accent); box-shadow:0 4px 12px rgba(255,75,139,0.08); }
+
+.lg-btn{
+  width:100%;
+  margin-top:8px;
+  background:var(--accent);
+  color:#fff;
+  border:none;
+  padding:12px;
+  border-radius:10px;
+  font-weight:600;
+  cursor:pointer;
+  transition:background .15s;
+}
+
+.lg-btn:disabled{ opacity:.7; cursor:default; }
+.lg-btn:hover{ background:var(--accent-dark); }
+
+.lg-error{ margin-top:12px; color:#b00020; font-weight:600; font-size:14px; text-align:center; }
+.lg-footer{ margin-top:14px; color:var(--muted); font-size:14px; }
+.lg-link{ color:var(--accent); font-weight:600; text-decoration:none; }
+.lg-link:hover{ text-decoration:underline; }
