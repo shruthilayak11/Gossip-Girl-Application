@@ -52,29 +52,6 @@ All interactions remain **anonymous** to other users, while authentication ensur
 
 ---
 
-## 📁 Project Structure
-
-GGAPP/
-│
-├── ggapp-frontend/
-│ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ ├── styles/
-│ │ └── assets/
-│ └── package.json
-│
-└── ggapp-backend/
-├── models/
-├── routes/
-├── middleware/
-├── uploads/
-├── server.js
-└── package.json
-
-
----
-
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the Repository
